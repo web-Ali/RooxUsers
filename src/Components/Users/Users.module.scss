@@ -1,0 +1,127 @@
+.wrapper {
+  padding-left: 34px;
+  padding-bottom: 25px;
+  margin-top: 19px;
+
+  h1 {
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0px;
+    margin-bottom: 17px;
+  }
+
+  .edit {
+    display: flex;
+    justify-content: space-between;
+
+    button {
+
+    }
+  }
+
+  .userItem {
+    background: #F3F3F3;
+    border-radius: 8px;
+    padding: 10px;
+    width: 420px;
+    margin-bottom: 14px;
+    font-size: 11px;
+    color: #A3A3A3;
+
+    div {
+      margin-bottom: 7px;
+
+      &:last-child {
+        margin-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+          text-decoration: none;
+          color: #4B51EF;
+        }
+      }
+
+      span {
+        color: #000000;
+      }
+    }
+
+  }
+
+  .result {
+    text-align: right;
+  }
+
+  .loading {
+    text-align: center;
+
+    img {
+      width: 50px;
+    }
+  }
+
+  .form {
+    .inputSection {
+      margin-top: 10px;
+      width: 438px;
+      border: 1px solid #F3F3F3;
+      border-radius: 8px;
+      padding-top: 20px;
+      padding-left: 12px;
+      font-size: 8px;
+    }
+
+    label {
+      display: block;
+      font-size: 8px;
+    }
+
+    input, textarea {
+      font-size: 10px;
+      margin-top: 3px;
+      display: block;
+      margin-bottom: 10px;
+      outline: none;
+      width: 211px;
+      border: 1px solid #D8D8D8;
+      padding: 5px 10px;
+      border-radius: 5px;
+      height: 22px;
+
+      &.errorField {
+        border: 1px solid red
+      }
+
+      &[readonly] {
+        color: gray;
+      }
+
+    }
+
+    .submit {
+      margin-top: 10px;
+      text-align: right;
+
+      button {
+        background: gray;
+      }
+
+      button[type=submit] {
+        margin-left: 10px;
+        background: #52CF4F;
+
+        &.disables {
+        background: lightgray;
+        }
+      }
+    }
+
+    textarea {
+      max-width: 400px;
+      width: 400px;
+      height: 55px;
+    }
+
+  }
+}
