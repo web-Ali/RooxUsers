@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/RooxUsers/static/css/main.9a8b6082.css",
+    "main.js": "/RooxUsers/static/js/main.983437ba.js",
+    "static/js/787.39171690.chunk.js": "/RooxUsers/static/js/787.39171690.chunk.js",
+    "static/media/loader.gif": "/RooxUsers/static/media/loader.a1a996746e5e48352c81.gif",
+    "index.html": "/RooxUsers/index.html",
+    "main.9a8b6082.css.map": "/RooxUsers/static/css/main.9a8b6082.css.map",
+    "main.983437ba.js.map": "/RooxUsers/static/js/main.983437ba.js.map",
+    "787.39171690.chunk.js.map": "/RooxUsers/static/js/787.39171690.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a8b6082.css",
+    "static/js/main.983437ba.js"
+  ]
+}
