@@ -95,9 +95,9 @@ const App: React.FC = () => {
         <div className={style.container}>
             <div className={style.sort}>
                 <p>Сортировка</p>
-                <button className={sort === 'name' ? style.activeBtn : ''} onClick={() => changeSort('name')}>по имени</button>
-                <button className={sort === 'city' ? style.activeBtn : ''} onClick={() => changeSort('city')}>по городу</button>
-                <button className={sort === 'company' ? style.activeBtn : ''} onClick={() => changeSort('company')}>по компании</button>
+                <button className={sort === 'name' ? 'activeBtn' : ''} onClick={() => changeSort('name')}>по имени</button>
+                <button className={sort === 'city' ? 'activeBtn' : ''} onClick={() => changeSort('city')}>по городу</button>
+                <button className={sort === 'company' ? 'activeBtn' : ''} onClick={() => changeSort('company')}>по компании</button>
             </div>
             <main className={style.content}>
                 <Routes>
